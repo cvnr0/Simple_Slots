@@ -20,5 +20,6 @@ class Game:
         elif self.result[0] == self.result[1] or self.result[1] == self.result[2] or self.result[0] == self.result[2]:
             print(f"You win {self.bet_tokens*1.5} tokens!")
             self.tokens += self.bet_tokens*1.5
+
         else:
             print("You lose! Better luck next time!")
